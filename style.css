@@ -1,0 +1,167 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b833ecbe;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+}
+
+.camel{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+.chameleon{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+.pigeon{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+.teddy{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+.panda{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+.cicada{
+    border: 1px solid #000000;
+    font-size:x-small;
+    padding: 2px;
+}
+
+body{
+    margin: 0px;
+    background-color: #F7F2F2;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.camel{
+    position: relative;
+}
+
+/*camel*/
+.camel h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    opacity: 0;
+}
+.camel:hover h3{
+    opacity: 1;
+}
+.camel:hover img{
+    transform: scale(1.2);
+}
+
+/*chameleon*/
+.chameleon h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-240%,-100%);
+    opacity: 0;
+}
+
+.chameleon:hover h3{
+    opacity: 1;
+}
+
+.chameleon:hover img{
+    transform: scale(1.2);
+}
+
+/*pigeon*/
+.pigeon h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(130%,-50%);
+    opacity: 0;
+}
+.pigeon:hover h3{
+    opacity: 1;
+}
+.pigeon:hover img{
+    transform: scale(1.2);
+}
+
+/*teddy*/
+.teddy h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(390%,-90%);
+    opacity: 0;
+}
+.teddy:hover h3{
+    opacity: 1;
+}
+.teddy:hover img{
+    transform: scale(1.2);
+}
+
+/*panda*/
+.panda h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-280%,1300%);
+    opacity: 0;
+}
+.panda:hover h3{
+    opacity: 1;
+}
+.panda:hover img{
+    transform: scale(1.2);
+}
+
+/*cicada*/
+.cicada h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.cicada:hover h3{
+    opacity: 1;
+}
+.cicada:hover img{
+    transform: scale(1.2);
+}
